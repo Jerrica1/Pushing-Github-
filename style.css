@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo img{
+    max-width: 1000px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: rgb(156, 7, 82);
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: rgb(3, 112, 21);
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon box-icon{
+    margin-right: 20px;
+    color: rgb(223, 209, 14);
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon box-icon:hover{
+    transform: scale(1.1);
+    color: rgb(161, 14, 125);
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: cornflowerblue;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section{
+  padding: 1% 1%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/pexels-ella-olsson-1640777.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text h5{
+    color: darkred;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+
+.main-text h1{
+    color: rgb(225, 240, 21);
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+
+}    
+
+
+.main-text p{
+    color: rgb(7, 138, 138);
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-text .btn{
+    display: inline-block;
+    color: rgb(139, 4, 106);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid rgb(16, 17, 17);
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.main-text .btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.main-btn i{
+    vertical-align: middle;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+
+.down i{
+    font-size: 30px;
+    color: orangered;
+    border: 2px solid #2c2c2c;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+
+.down i:hover{
+    background-color: #2c2c2c;
+    color: white;
+    transition: all .42s ease;
+} 
+
+header.sticky{
+    background: #fff;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(16, 17, 17)/10%;
+}
+
+
+/* trending-section-css */
+
+.center-text h2{
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.center-text span{
+    color: crimson;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(260px, auto));
+    gap: 2rem;
+}
+
+
+.row{
+    width: 20%;
+    height: auto;
+    transition: all .40s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.product-text h5{
+    position: absolute;
+    top: 13;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* .row .img{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.row .img{
+    max-width: 100%;
+} */
